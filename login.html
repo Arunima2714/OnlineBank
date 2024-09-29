@@ -13,10 +13,6 @@
         height: 100vh;
         margin: 0;
         font-family: Arial, sans-serif;
-        background-image: url('https://media.istockphoto.com/id/1227400166/photo/data-protection-and-secure-online-payments-cyber-internet-security-technologies-and-data.webp?b=1&s=612x612&w=0&k=20&c=N8YK0-_hZgw6n4txFMP2jw_kx7lYdmXwdx61WtqsuK8=');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         position: relative;
     }
 
@@ -30,7 +26,7 @@
         padding: 3px;
         flex-direction: column;
         align-items: center;
-        position: relative; /* Position relative to body */
+        position: relative; 
         z-index: 1;
     }
 
@@ -96,28 +92,7 @@
 
 
 <script>
-    // "anum" placeholder="Account number"><br>
-    // <input type="password" id="psd" placeholder="Password"><br>
-    // <button onclick="btn()" id="but"
-//     function login() {
-//   let accountNumber = document.getElementById('anum').value;
-//   let password = document.getElementById('psd').value;
-
-//   if (accountNumber in localStorage) {
-//     // Retrieve the stored login details (which is likely a JSON string)
-//     let storedDetails = JSON.parse(localStorage.getItem(accountNumber));
-
-//     // Check if the stored password matches the entered password
-//     if (storedDetails.password === password) {
-//       alert("Login successful");
-//     } else {
-//       alert("Incorrect password");
-//     }
-//   } else {
-//     alert("Account number doesn't exist. Please register first.");
-//     window.location.href = "registration.html";
-//   }
-// }
+ 
 function login() {
         let acnum = document.getElementById('anum').value;
         let password = document.getElementById('psd').value;
